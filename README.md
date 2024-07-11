@@ -69,5 +69,7 @@ Database Initialization: Creates the necessary tables in the database.
 Screenshots
 ![image](https://github.com/PRATHAMdeshkar/Flask-profile/assets/115910086/3362d0b6-916a-4707-8dfa-32e267ae66ad)
 ![image](https://github.com/PRATHAMdeshkar/Flask-profile/assets/115910086/f05dead1-b949-4ca7-9992-4dae6811b1dd)
+![image](https://github.com/PRATHAMdeshkar/Flask-profile/assets/115910086/19d042e3-e0ec-4c2d-a599-2715e5c9b403)
+
 
 
