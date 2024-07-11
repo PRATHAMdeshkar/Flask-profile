@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathmesh Deshkar Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Fira Sans", sans-serif;
+        }
+
+        .navbar-brand {
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .sideNavigationBar a {
+            color: #d1d1d1;
+        }
+
+        .sideNavigationBar a:hover {
+            color: white;
+        }
+
+        .sideNavigationBar .closeButton {
+            font-size: 20px;
+        }
+
+        .content .title {
+            font-weight: bolder;
+            font-size: 40px;
+        }
+
+        .about .boxes .box,
+        .projects .boxes .box {
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+            padding: 30px 10px;
+        }
+
+        footer {
+            background: #8cc099;
+            padding: 15px 0;
+        }
+
+        footer .footer span {
+            font-size: 17px;
+        }
+
+        footer .footer span a {
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <a class="navbar-brand text-white" href="#">Prathmesh Deshkar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">Add You</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container my-5" id="Home">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="display-4 text-success">Software Developer</h1>
+                <p>Nagpur | P: +91 9370156415 | pratham.deshkar@gmail.com</p>
+                <p><a href="#" class="text-success">Github</a> | <a href="#" class="text-success">LinkedIn</a></p>
+                <a href="https://www.google.com/" class="btn btn-outline-success">Explore More</a>
+            </div>
+            <div class="col-lg-6">
+                <div style="position: relative;">
+                <img src="https://media.licdn.com/dms/image/D5616AQEh711VuxozGg/profile-displaybackgroundimage-shrink_200_800/0/1690798433142?e=2147483647&v=beta&t=9OBLbVLRUO5qDirZq0Q86sFDelyJY9d7-4aq8h8L_cA" class="img-fluid" alt="Background Image">
+                <img src="https://media.licdn.com/dms/image/D4E03AQHQUbdKEbFiXg/profile-displayphoto-shrink_200_200/0/1699082208274?e=2147483647&v=beta&t=RnXPhFHGU4jJIjDViB6s0S6DGgd56UtlICBSg4wmsbA" class="img-fluid rounded-circle position-absolute" style="top: 100%; left: 50%; transform: translate(-50%, -50%); width: 150px; height: 150px; object-fit: cover;" alt="Profile Image">
+    </div>
+</div>
+    </div>
+
+    <section class="about py-5 bg-light" id="about">
+        <div class="container">
+            <div class="content">
+                <div class="text-center mb-5">
+                    <h2 class="title">About Me</h2>
+                </div>
+                <h3>Education</h3>
+                <br>
+                <ul>
+                    <li>GH Raisoni Institute of Engineering and Technology, Nagpur (6.69 CGPA) Dec 2021 - June 2024</li>
+                    <li>GH Raisoni Polytechnic, Nagpur (86.91%) Aug 2018 - Jul 2021</li>
+                </ul>
+                <hr>
+                <h3>Technical Skills</h3>
+                <br>
+<div class="row">
+    <div class="col-md-6">
+        <ul>
+            <li>Java</li>
+            <li>Kotlin</li>
+            <li>C++</li>
+            <li>Android Development</li>
+            <li>Android UI/UX</li>
+            <li>MySQL</li>
+            <li>XML</li>
+            <li>Python</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <ul>
+            <li>Django</li>
+            <li>PostgreSQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>API Design</li>
+            <li>Swagger</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </div>
+</div>
+
+                <hr>
+                <h3>Work Experience</h3>
+                <br>
+                <h4>● Internship At Samaro (Dec 2023 - June 2024)</h4>
+                <ul>
+                    <li>Created a Django project, set up and managed the database for improved data handling.</li>
+                    <li>Utilized Metabase for graphical data representation.</li>
+                    <li>Implemented Swagger for clear API documentation, making it easier for users to understand the system.</li>
+                    <li>Contributed to backend development, creating APIs for various functionalities like business profiles, user management, and event sub-events, while ensuring thorough testing for reliability.</li>
+                    <li>Focused on frontend(Angular) enhancements to enhance user interaction and optimized database queries for better performance.</li>
+                    <li>Utilized query optimization techniques like select_related and prefetch_related to improve database query efficiency.</li>
+                    <li>Developed a customized finance page using Appsmith and Retool, integrating personal and business accounts information for efficient financial management and reporting, and understanding Payment Gateway Integration (Stripe, Razorpay) for streamlined payment processing.</li>
+                </ul>
+                <h4>● Internship in Android Application Development (June 2020 - July 2020)</h4>
+                <ul>
+                    <li>Developed an intuitive Android app from scratch for internship.</li>
+                    <li>Implemented a highly customized user interface utilizing XML, optimized user experience resulting in a 40% increase in app engagement and a 25% decrease in user churn rate.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects py-5" id="projects">
+        <div class="container">
+            <div class="content">
+                <div class="text-center mb-5">
+                    <h2 class="title">Projects</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+
+                        <div class="box p-3 border rounded">
+                            <div class="topic mb-2">
+                                <a href="#">Road-Route Mapper (Major Project at 6 Simplex Software Solutions)</a>
+                            </div>
+                            <img src="https://play-lh.googleusercontent.com/SUd20IHIH7HgTiZeRujBUdFlgnfE2OXX3a7hoJww6Xrhp7R0qlW02u1WUqoyenIYm0i-" class="img-fluid rounded-circle mx-auto d-block my-3" style="width: 150px; height: 150px; object-fit: cover;" alt="Profile Image">
+                            <p>It is a comprehensive and innovative solution that addresses the complex challenges of modern route planning.</p>
+                            <p>  Geographic Information Systems technology is used to calculate the shortest path between two points on a map.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="box p-3 border rounded">
+                            <div class="topic mb-2">
+                                <a href="#">Android Instagram Clone Development</a>
+                            </div>
+                            <img src="https://www.lifewire.com/thmb/0OP-MOhMrJiU2eo8KwckChE_jtI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1306472287-1621e9a6fb214791a364c28c765c13db.jpg" class="img-fluid rounded-circle mx-auto d-block my-3" style="width: 150px; height: 150px; object-fit: cover;" alt="Profile Image">
+                            <p>Developed Android Instagram clone with unique UI, mirroring core functionalities.</p>
+                            <p>Implemented features akin to Instagram, enhancing user interactions. Customized interface design for a distinct user experience.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="box p-3 border rounded">
+                            <div class="topic mb-2">
+                                <a href="#">Library Book Issue And Return System</a>
+                            </div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThWmukiIzap0sdn9ZXnYsP4UlXS7fy9eBdQw&s" class="img-fluid rounded-circle mx-auto d-block my-3" style="width: 150px; height: 150px; object-fit: cover;" alt="Profile Image">
+                            <p>Developed a library book issue and return system in Java, utilizing core concepts and DBMS for efficient management of book transactions, including borrowing, returning, and tracking, with robust storage and retrieval mechanisms.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="box p-3 border rounded">
+                            <div class="topic mb-2">
+                                <a href="#">Exam Seating Arrangement System</a>
+                            </div>
+                            <img src="https://teachyourkidscode.com/wp-content/uploads/2022/02/best-coding-language-for-games.jpg" class="img-fluid rounded-circle mx-auto d-block my-3" style="width: 150px; height: 150px; object-fit: cover;" alt="Profile Image">
+                            <p>Designed and developed an automated exam seating arrangement system, ensuring fairness and minimizing malpractice risks through intelligent seating allocation algorithms and providing efficient management interface for administrators.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="box p-3 border rounded">
+                            <div class="topic mb-2">
+                                <a href="#">Time Conversion By Country</a>
+                            </div>
+                            <img src="https://cdn.vectorstock.com/i/preview-1x/78/79/australia-time-zone-icon-flat-vector-47987879.jpg" class="img-fluid rounded-circle mx-auto d-block my-3" style="width: 150px; height: 150px; object-fit: cover;" alt="Profile Image">
+                            <p>Developed a user-friendly tool for accurately converting local time zones to specific country time zones, ensuring reliability and accuracy across various countries.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact py-5 bg-light" id="contact">
+        <div class="container">
+            <div class="content">
+                <div class="text-center mb-5">
+                    <h2 class="title">Add Your Information</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form method="POST" action="/">
+                            <div class="form-group">
+                                <label>Your Name</label>
+                                <input type="text" class="form-control" placeholder="Enter your Name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Email ID</label>
+                                <input type="email" class="form-control" placeholder="Enter your Email" name="email" required>
+                            </div>
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="https://miro.medium.com/v2/resize:fit:640/1*dKU4uBSnJCs4jzkkuiALoQ.png" class="img-fluid" alt="Image">
+                    </div>
+                </div>
+                <div class="mt-5">
+                                    <div class="text-center mb-5">
+                    <h2 class="title">Added People</h2>
+                                    </div>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">ID</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for task in tasks %}
+                            <tr>
+                                <th scope="row">{{ task.sno }}</th>
+                                <td>{{ task.YourName }}</td>
+                                <td>{{ task.Email }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-white bg-success">
+        <div class="container text-center py-3">
+            <div class="footer">
+                <span>Created by <a href="#">Prathmesh Deshkar</a> | © 2024 All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
